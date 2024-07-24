@@ -1,0 +1,7 @@
+<div>
+  <h2>Parent Component</h2>
+  <p>{{ parentData }}</p>
+  <button class="btn btn-info" (click)="updateParentData()">Update Parent Data</button>
+  <button class=" m-2 btn btn-info" (click)="updateData()">Update Child Data</button>
+  <app-child [data]="count"></app-child>
+</div>
